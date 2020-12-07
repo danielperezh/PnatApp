@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/side_nav_bar"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.avistamientos.avistamientoFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="10dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txUbicacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:text="Ubicacion"
+                    android:textColor="@color/blanco"
+                    android:autoSizeTextType="uniform"
+                    android:textSize="17dp" />
+
+                <RelativeLayout
+                    android:id="@+id/cuadroUbicacion"
+                    android:layout_width="155dp"
+                    android:layout_height="55dp"
+                    android:layout_below="@+id/txUbicacion"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/style_spinner"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/spUbicacion"
+                        android:layout_width="160dp"
+                        android:layout_height="55dp"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:spinnerMode="dropdown" />
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/flecha" />
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/txTamaño"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cuadroUbicacion"
+                    android:layout_marginLeft="6dp"
+                    android:text="Tamaño animal"
+                    android:textColor="@color/blanco"
+                    android:autoSizeTextType="uniform"
+                    android:textSize="17dp" />
+                <EditText
+                    android:id="@+id/cuadroTamaño"
+                    android:layout_width="155dp"
+                    android:layout_height="55dp"
+                    android:layout_below="@+id/txTamaño"
+                    android:singleLine="true"
+                    android:gravity="center"
+                    android:textAlignment="inherit"
+                    android:layout_marginLeft="6dp"
+                    android:inputType="number"
+                    android:background="@drawable/style_spinner">
+                </EditText>
+
+
+                <TextView
+                    android:id="@+id/txDistancia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cuadroTamaño"
+                    android:text="Distancia"
+                    android:layout_marginLeft="6dp"
+                    android:textColor="@color/blanco"
+                    android:autoSizeTextType="uniform"
+                    android:textSize="17dp" />
+
+                <EditText
+                    android:id="@+id/cuadroDistancia"
+                    android:layout_width="155dp"
+                    android:layout_height="55dp"
+                    android:layout_below="@+id/txDistancia"
+                    android:gravity="center"
+                    android:textAlignment="inherit"
+                    android:layout_marginLeft="6dp"
+                    android:singleLine="true"
+                    android:inputType="number"
+                    android:background="@drawable/style_spinner">
+                </EditText>
+                <TextView
+                    android:id="@+id/txvisibilidad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="80dp"
+                    android:text="Visibilidad"
+                    android:textColor="@color/blanco"
+                    android:autoSizeTextType="uniform"
+                    android:textSize="17dp" />
+
+                <RelativeLayout
+                    android:id="@+id/cuadroVisibilidad"
+                    android:layout_width="155dp"
+                    android:layout_height="55dp"
+                    android:layout_below="@+id/txvisibilidad"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/style_spinner"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/spVisibilidad"
+                        android:layout_width="165dp"
+                        android:layout_height="55dp"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:spinnerMode="dropdown" />
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/flecha" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/txIndividuos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cuadroVisibilidad"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="60dp"
+                    android:text="Nº Individuos"
+                    android:textColor="@color/blanco"
+                    android:autoSizeTextType="uniform"
+                    android:textSize="17dp" />
+
+
+                <EditText
+                    android:id="@+id/cuadroIndividuos"
+                    android:layout_width="155dp"
+                    android:layout_height="55dp"
+                    android:layout_below="@+id/txTamaño"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:textAlignment="inherit"
+                    android:layout_marginRight="6dp"
+                    android:singleLine="true"
+                    android:inputType="number"
+                    android:background="@drawable/style_spinner">
+                </EditText>
+
+                <TextView
+                    android:id="@+id/Zona"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cuadroIndividuos"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="125dp"
+                    android:text="Zona"
+                    android:textColor="@color/blanco"
+                    android:autoSizeTextType="uniform"
+                    android:textSize="17dp" />
+
+                <RelativeLayout
+                    android:id="@+id/cuadroZona"
+                    android:layout_width="155dp"
+                    android:layout_height="55dp"
+                    android:layout_below="@+id/Zona"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/style_spinner"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/spZona"
+                        android:layout_width="165dp"
+                        android:layout_height="55dp"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:spinnerMode="dropdown" />
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/flecha" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView
+                    android:id="@+id/txEspecie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/blanco"
+                    android:text="Especie"
+                android:textSize="17dp"  />
+            <RelativeLayout
+                android:id="@+id/cuadroEspecie"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@+id/txDistancia"
+                android:layout_margin="6dp"
+                android:background="@drawable/style_spinner"
+                android:orientation="horizontal">
+                <Spinner
+                    android:id="@+id/spEspecie"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/negro"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:spinnerMode="dropdown" />
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/flecha" />
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/txComportamientoIni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoSizeTextType="uniform"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/blanco"
+                android:text="Comportamiento Inicial"
+                android:textSize="17dp"  />
+            <RelativeLayout
+                android:id="@+id/cuadroComportaIni"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@+id/txDistancia"
+                android:layout_margin="6dp"
+                android:background="@drawable/style_spinner"
+                android:orientation="horizontal">
+                <Spinner
+                    android:id="@+id/spComportaIni"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                     />
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/flecha" />
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/txComportamientoFin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoSizeTextType="uniform"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/blanco"
+                android:text="Comportamiento Final"
+                android:textSize="17dp"  />
+
+            <RelativeLayout
+                android:id="@+id/cuadroComportaFin"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@+id/txDistancia"
+                android:layout_margin="6dp"
+                android:background="@drawable/style_spinner"
+                android:orientation="horizontal">
+                <Spinner
+                    android:id="@+id/spComportaFin"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                     />
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/flecha" />
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/txReaccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoSizeTextType="uniform"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/blanco"
+                android:text="Reaccion Frente a buzo"
+                android:textSize="17dp"  />
+            <RelativeLayout
+                android:id="@+id/cuadroReaccion"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@+id/txDistancia"
+                android:layout_margin="6dp"
+                android:background="@drawable/style_spinner"
+                android:orientation="horizontal">
+                <Spinner
+                    android:id="@+id/spReaccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:spinnerMode="dropdown" />
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/flecha" />
+            </RelativeLayout>
+            <ImageButton
+                android:id="@+id/agregar_foto"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/style_spinner"
+                android:src="@drawable/ic_icono_foto" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="6dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/guardar"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/fonfo_btn_guardar"
+                    android:elevation="10dp"
+                    android:text="Guardar"
+                    android:textColor="@color/blanco"
+                    android:textSize="16sp"/>
+                <Button
+                    android:id="@+id/new_avistamiento"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/borde_boton"
+                    android:elevation="5dp"
+                    android:text="Agregar"
+                    android:textColor="#0B2C43"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+</ScrollView>

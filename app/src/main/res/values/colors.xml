@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorbarra">#41ABD9</color>
+    <color name="colorfondo">#0091D0</color>
+    <color name="colorAgregar">#11476E</color>
+    <color name="blanco">#fff</color>
+    <color name="hintTextColor">#C8D4D6</color>
+    <color name="headerTextColor">#ECE3E3</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="negro">#000000</color>
+</resources>

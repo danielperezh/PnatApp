@@ -1,0 +1,401 @@
+<resources>
+    <string name="app_name">PnatApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_inmersion">Inmersion</string>
+    <string name="menu_avistamiento">Avistamiento</string>
+    <string name="menu_puntos">Puntos</string>
+    <string name="menu_sesion">Cerrar Sesion</string>
+
+
+
+    <string-array name="Zonas">
+        <item>Pacifico</item>
+        <item>Caribe</item>
+    </string-array>
+
+    <string-array name="Especies_paciico">
+        <item>Aetobatus laticeps</item>
+        <item>Carcharhinus galapagensis</item>
+        <item>Ginglymostoma unami</item>
+        <item>Hypanus longus</item>
+        <item>Mobula mobular</item>
+        <item>Mobula munkiana</item>
+        <item>Mobula thurstoni</item>
+        <item>Narcine entemedor</item>
+        <item>Odontaspis ferox</item>
+        <item>Pseudobatos prahli</item>
+        <item>Pseudobatos leucorhynchus</item>
+        <item>Rhinoptera steindachneri</item>
+        <item>Triaenodon obesus</item>
+        <item>Urobatis halleri</item>
+        <item>Carcharhinus falciformis</item>
+        <item>Carcharhinus leucas</item>
+        <item>Carcharhinus limbatus</item>
+        <item>Carcharhinus longimanus</item>
+        <item>Galeocerdo cuvier</item>
+        <item>Negaprion brevirostris</item>
+        <item>Isurus oxyrinchus</item>
+        <item>Mobula birostris</item>
+        <item>Mobula tarapacana</item>
+        <item>Prionace glauca</item>
+        <item>Rhincodon typus</item>
+        <item>Rhincodon typus</item>
+        <item>Sphyrna lewini</item>
+
+    </string-array>
+
+    <string-array name="Especies_caribe">
+        <item>Aetobatus narinari</item>
+        <item>Carcharhinus perezii</item>
+        <item>Ginglymostoma cirratum</item>
+        <item>Hypanus americanus</item>
+        <item>Hypanus gutatus</item>
+        <item>Mobula hypostoma</item>
+        <item>Narcine bancroftii</item>
+        <item>Odontaspis spp</item>
+        <item>Pseudobatos percellens</item>
+        <item>Rhinoptera spp</item>
+        <item>Sphyrna mokarran</item>
+        <item>Styracura schmardae</item>
+        <item>Urobatis jamaicensis</item>
+        <item>Carcharhinus falciformis</item>
+        <item>Carcharhinus leucas</item>
+        <item>Carcharhinus limbatus</item>
+        <item>Carcharhinus longimanus</item>
+        <item>Galeocerdo cuvier</item>
+        <item>Negaprion brevirostris</item>
+        <item>Isurus oxyrinchus</item>
+        <item>Mobula birostris</item>
+        <item>Mobula tarapacana</item>
+        <item>Prionace glauca</item>
+        <item>Rhincodon typus</item>
+        <item>Rhincodon typus</item>
+        <item>Sphyrna lewini</item>
+    </string-array>
+
+    <string-array name="visibilidad">
+        <item>Buena</item>
+        <item>Regular</item>
+        <item>Mala</item>
+    </string-array>
+
+    <string-array name="ubicacion">
+        <item>Superficie</item>
+        <item>Media Agua</item>
+        <item>Fondo</item>
+    </string-array>
+
+    <string-array name="comportamiento_inicial">
+        <item>Alimentación</item>
+        <item>Reproducción</item>
+        <item>Cortejo</item>
+        <item>Frenesí</item>
+        <item>Reposo</item>
+        <item>Natación Rápida</item>
+        <item>Natación Lenta</item>
+    </string-array>
+    <string-array name="comportamiento_final">
+        <item>Alimentación</item>
+        <item>Reproducción</item>
+        <item>Cortejo</item>
+        <item>Frenesí</item>
+        <item>Reposo</item>
+        <item>Natación Rápida</item>
+        <item>Natación Lenta</item>
+    </string-array>
+    <string-array name="reaccion">
+        <item>Se acerca </item>
+        <item>Se aleja </item>
+        <item>No reacciona </item>
+    </string-array>
+
+    <string-array name="Lugares">
+        <item>Gorgona</item>
+        <item>Malpelo</item>
+        <item>Nuquí</item>
+        <item>Bahía Solano</item>
+        <item>Capurganá</item>
+        <item>Isla Fuerte</item>
+        <item>Santa Marta</item>
+        <item>Cartagena y las islas del Rosario</item>
+        <item>islas de San Bernardo</item>
+        <item>San Andrés</item>
+        <item>Providencia</item>
+    </string-array>
+
+    <string-array name="lugares_gorgo">
+        <item>La Parguera</item>
+        <item>Rocas del Horno</item>
+        <item>Plaza de Toros</item>
+        <item>La Tiburonera</item>
+        <item>El Remanso</item>
+        <item>Acuario</item>
+        <item>Playa Pizarro</item>
+        <item>Peña de mora</item>
+        <item>El Planchón</item>
+        <item>La Azufrada</item>
+        <item>Punta Brava</item>
+        <item>Playa Blanca</item>
+        <item>Piedra Redonda</item>
+        <item>La Ventana</item>
+        <item>El Viudo</item>
+        <item>Isla Gorgonilla</item>
+        <item>Los Farallones</item>
+        <item>La Camaronera</item>
+        <item>Montañita 1</item>
+        <item>Montañita 2</item>
+        <item>Playa del Cocal</item>
+        <item>Playa la Mancora</item>
+        <item>Palma Sola</item>
+        <item>Juanchicho</item>
+    </string-array>
+    <string-array name="lugar_malpe">
+        <item>El Sahara</item>
+        <item>Saúl</item>
+        <item>La Gringa</item>
+        <item>La Ferretería</item>
+        <item>Escuba</item>
+        <item>David</item>
+        <item>Salomón</item>
+        <item>Bajo de junior</item>
+        <item>Los Gemelos</item>
+        <item>La Pared del Águila</item>
+        <item>La Torta</item>
+        <item>Vagamares</item>
+        <item>El arco del Tropic</item>
+        <item>La Pared del Tangón</item>
+        <item>El Arrecife</item>
+        <item>La Cara del Fantasma</item>
+        <item>Bajo del Monstruo</item>
+        <item>La Catedral</item>
+        <item>D’artagnan</item>
+        <item>Los tres Mosqueteros</item>
+        <item>Bajo del Cholo</item>
+        <item>Bajo del Ancla</item>
+        <item>La Pared del Náufrago</item>
+        <item>El Acuario</item>
+        <item>El Freezer</item>
+        <item>Aquamarina</item>
+        <item>El Mirador</item>
+        <item>La Nevera</item>
+        <item>La Puerta del Cielo</item>
+    </string-array>
+    <string-array name="lugar_nuqui">
+        <item>Cabo Corrientes</item>
+        <item>La Piedra de Polo</item>
+        <item>Amargal</item>
+        <item>La Roñosa</item>
+        <item>Piedra Bonita</item>
+        <item>Rocata</item>
+        <item>La Parguera</item>
+        <item>Chuzudo Seco y Hundido</item>
+        <item>La Piedra de Fidel</item>
+        <item>El jenene</item>
+    </string-array>
+    <string-array name="lugar_Bahia">
+        <item>Piedra de la Esperanza</item>
+        <item>El Valle</item>
+        <item>Piedra de Becerra</item>
+        <item>Naufragio Sebastián de Belalcázar</item>
+        <item>Piedra del Flaco</item>
+        <item>Arrecife de Vidales</item>
+        <item>La Tiburonera</item>
+        <item>Bahía Cupica</item>
+        <item>Punta de Piñas</item>
+        <item>La Mina del Diablo</item>
+        <item>Centinela del Norte</item>
+        <item>Bahía Octavia</item>
+        <item>Morro Quemao</item>
+    </string-array>
+    <string-array name="lugar_capur">
+        <item>La Internacional</item>
+        <item>La Miel</item>
+        <item>Cabo Tiburón</item>
+        <item>Sapzurro</item>
+        <item>Palmar</item>
+        <item>Cueva del Mero</item>
+        <item>Grieta de Narza</item>
+        <item>Isla Narza</item>
+        <item>Cantil Capurgana</item>
+        <item>El Aguacate</item>
+        <item>El Acuario</item>
+        <item>Playa Soledad</item>
+        <item>Rufino</item>
+        <item> Pinorroa</item>
+        <item>Isla de los Pájaros</item>
+        <item>Bajo el Toro</item>
+        <item>Isla Deseo</item>
+        <item>Playa la Playona</item>
+        <item>Punta Caleta</item>
+        <item>Trigana</item>
+        <item>San Pacho Punta de San Nicolas</item>
+    </string-array>
+    <string-array name="lugar_isla">
+        <item>El Cebadero</item>
+        <item>Playa del Norte</item>
+        <item>Canal del Ingles</item>
+        <item>Punta el Ingles</item>
+        <item>Bajo la Cebolleta</item>
+        <item>Puerto Cebolleta</item>
+        <item>Puerto Limón</item>
+        <item>Los Venados</item>
+        <item>Punta Arenas</item>
+        <item>Bajo Mariajo</item>
+        <item>Playas de Arenas Blancas</item>
+        <item>Las Esponjas</item>
+        <item>Bajo Caldas</item>
+        <item>Los Bayones</item>
+        <item>Punta Lata</item>
+        <item>Fondo Loco</item>
+        <item>Burbujas</item>
+        <item>Los Pargos</item>
+        <item>Punta San Bernardo</item>
+        <item>Bushnell</item>
+        <item>Grieta del Socorro</item>
+        <item>Ensenada del Socorro</item>
+    </string-array>
+    <string-array name="lugar_santa">
+        <item>Los Morritos</item>
+        <item>Morrito Largo</item>
+        <item>Callchan</item>
+        <item>Cantil de Granate</item>
+        <item>Punta Brava</item>
+        <item>El Acuario</item>
+        <item>Barco Hundido</item>
+        <item>Isla el Morro</item>
+        <item>Bahía Taganga</item>
+        <item>El Cantil</item>
+        <item>Punta Granate</item>
+        <item>El Coro</item>
+        <item>Isla Aguja</item>
+        <item> Punta Aguja</item>
+        <item>Punta Chengue</item>
+        <item>Bahía Gairaca</item>
+        <item>Bahía Neguanje</item>
+    </string-array>
+    <string-array name="lugar_cartagena">
+        <item>El Aparecido</item>
+        <item>Martincito</item>
+        <item>Isla Grande</item>
+        <item>Fiesta</item>
+        <item>Gloria</item>
+        <item>Pavitos</item>
+        <item>Isla Rosario</item>
+        <item>Bajo Tortugas</item>
+        <item>Punta Brava</item>
+        <item>Bajo Perdido</item>
+        <item>Isla Tesoro</item>
+        <item>PNN Corales del Rosario y de San Bernardo</item>
+        <item>La Montañita</item>
+        <item>Playa Vásquez</item>
+        <item>Punta Gigante</item>
+        <item>Bajo Imelda</item>
+        <item>Tierrabomba</item>
+        <item>Barco Pedro de Heredia</item>
+        <item>Bahía Barbacoas</item>
+        <item>Bahía de Cartagena</item>
+        <item>Bajo Salmedina</item>
+        <item>Bajo Burbujas</item>
+    </string-array>
+    <string-array name="lugar_Bernardo">
+        <item>Roca de Morrosquillo</item>
+        <item>Bajo Oeste</item>
+        <item>Punta de San Bernardo</item>
+        <item>Bajo el Pajarito</item>
+        <item>Golfo de Morrosquillo</item>
+        <item>Reserva Sanguaré</item>
+        <item>Punta Seca</item>
+        <item>Isla Cabruna</item>
+        <item>Bajo Dulce</item>
+        <item>Isla Palma</item>
+        <item>Bajo Migue</item>
+        <item>Archipiélago de San Bernardo</item>
+        <item>Piedra Ahogada o Viuda Vieja</item>
+        <item>Isla Mangles</item>
+        <item>Raya y Estrella</item>
+        <item>Bajo Bonito</item>
+        <item>Isla Panda</item>
+        <item>Laguna de Tintipan</item>
+        <item>La Gallera</item>
+        <item>Cantil de Tintipan</item>
+        <item>Isla Tintipan</item>
+        <item>Picua</item>
+        <item>El Islote</item>
+        <item>Isla Múcura</item>
+        <item>Isla Maravilla</item>
+        <item>Pozos Ceycén</item>
+        <item>Isla Ceycén</item>
+        <item>Caribana</item>
+    </string-array>
+    <string-array name="lugar_andres">
+        <item>Hoyo Soplador</item>
+        <item>Punta Sur</item>
+        <item>Las Puntas de Carlitos</item>
+        <item>Blue Wall</item>
+        <item>Bahía Sonora</item>
+        <item>Trampa Tortugas</item>
+        <item>Haine’s Cay</item>
+        <item>Cayo Rocoso</item>
+        <item>Cayo el Acuario</item>
+        <item>Cotton Cay</item>
+        <item>La Pirámide</item>
+        <item>Punta Hansa</item>
+        <item>Punta Norte</item>
+        <item>Bajo Bonito</item>
+        <item>La Rocosa</item>
+        <item>Cantil los Recuerdos</item>
+        <item>Reggae Nest</item>
+        <item>Evans Point</item>
+        <item>Las Esponjas</item>
+        <item>Dedos de Morgan</item>
+        <item>Barco Hundido</item>
+        <item>Punta Padi</item>
+        <item>La Piscinita</item>
+        <item>Wild Life</item>
+        <item>El Velerito</item>
+        <item>West Point</item>
+    </string-array>
+    <string-array name="lugar_providencia">
+        <item>Manta’s City</item>
+        <item>Bajo de los pargos</item>
+        <item>Las Margaritas</item>
+        <item>Bahía Manzanito</item>
+        <item>Bottom House</item>
+        <item>Bahía Aguamansa</item>
+        <item>Cayos Tres Hermanos</item>
+        <item>PNN McBean Lagoon</item>
+        <item>Cayo Cangrejo</item>
+        <item>Bahía Maracaibo</item>
+        <item>Bahía Garret</item>
+        <item>Balsat Place</item>
+        <item>Canal Aury</item>
+        <item>Punta Bucarena</item>
+        <item>Cayo Basalto</item>
+        <item>Isla de Santa Catalina</item>
+        <item>El Canal</item>
+        <item>Galeón</item>
+        <item>Piedra de la Tortuga</item>
+        <item>Espiral</item>
+        <item>Nick’s Place</item>
+        <item>Cabeza de Morgan</item>
+        <item>Bahía de Santa Catalina</item>
+        <item>La Cueva</item>
+        <item>Felipe’s Place</item>
+        <item>El Planchón</item>
+        <item>Bahía Aguadulce</item>
+        <item>Bahía Suroeste</item>
+        <item>Tete’s Place</item>
+        <item>Big Black Point</item>
+        <item>Snaper Sure</item>
+        <item>El Frances</item>
+    </string-array>
+</resources>

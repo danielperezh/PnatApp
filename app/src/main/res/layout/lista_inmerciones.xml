@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/lugar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Lugar:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/lugar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/lugar2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:text="lugar"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/n_avistamiento2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/fecha"
+            android:layout_marginRight="20dp"
+            android:text="N° avistamientos:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/n_avistamiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/n_avistamiento2"
+            android:layout_below="@+id/fecha"
+            android:layout_marginRight="20dp"
+            android:text="N° avistamientos"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/fecha2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/lugar"
+            android:layout_marginRight="20dp"
+            android:text="Fecha"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/fecha2"
+            android:layout_below="@+id/lugar"
+            android:layout_marginRight="20dp"
+            android:text="Fecha:"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
